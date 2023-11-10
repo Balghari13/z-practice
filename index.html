@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Custom Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+    <h3>Custom From Practice</h3>
+    <form >
+        <div class="models">
+            <label for="select">Select Model</label>
+            <select name="select" id="select">
+                <option value="redmi">Redmi</option>
+                <option value="realme">Real Me</option>
+                <option value="nokia">Nokia</option>
+                <option value="sony">Sony</option>
+            </select>
+            <div class="counter">
+                <span>Items</span>
+                <button id="add">+</button>
+                <span id="counter">0</span>
+                <button id="minus">-</button>
+            </div>
+            
+        </div>
+        
+        <div>
+
+            <h3>Choose Color</h3>
+            <input type="radio" name="color" id="white" value="white" required>
+            <label for="white">White</label>
+            <input type="radio" name="color" id="black" value="black" >
+            <label for="black">Black</label>
+            <input type="radio" name="color" id="blue" value="blue" > 
+            <label for="blue">Blue</label>
+        </div>
+     
+<div>
+    <h3>Accessories</h3>
+    <input class='check' type="checkbox" name="airbud" id="airbud"  value="airbud">
+   <label for="airbud">Airbud</label>
+   <input class='check' type="checkbox" name="protector" id="protector" value="protector">
+   <label for="protector">Protector</label>
+   <input class='check' type="checkbox" name="cover" id="cover" value="cover">
+   <label for="cover">Cover</label>
+   <input class='check' type="checkbox" name="charger" id="charger" value="charger">
+   <label for="charger">Fast Charger</label>
+</div>
+<br>
+        <button type="submit"id='submit'>Check Out</button>
+    </form>
+    <div>
+        <div class="result">
+
+        </div>
+    </div>
+
+</div>
+</body>
+<script src="script.js"></script>
+</html>

@@ -1,0 +1,47 @@
+*{
+    box-sizing: border-box;
+
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    width: 80%;
+    border: 1px solid gray;
+    padding: 15px;
+    border-radius: 10px;
+
+}
+
+.models{
+    display: flex;
+    justify-content: space-between;
+}
+
+#select{
+    width: 30%;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.counter{
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+button{
+    border: none;
+    background: white;
+}
+
+#submit{
+    width: 100%;
+    background-color: rgb(66, 59, 51);
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+}

@@ -1,0 +1,360 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+#notifications{
+    background-color: black;
+    width: 100vw;
+    color: #fff;
+    height: 45px;
+    text-align: center;
+    padding: 5px;
+}
+
+header{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: gray;
+    padding: 10px;
+    height: 70px;
+  
+}
+
+.logo{
+    background-image: url('logo.webp');
+    background-size: cover;
+    width: 140px;
+    height: 41px;
+}
+.options a{
+    margin-right: 20px;
+    font-weight: 600;
+    color: black;
+    font-size: 18px;
+}
+.search{
+    background-color: #F6F6F6;
+    border-radius: 8px;
+    padding: 6px;  
+    
+}
+.search input{
+    border: none;
+    background-color: transparent;
+   
+}
+.nav-icon i{
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+.nav{
+    display: flex;
+    align-items: center;
+    
+}
+
+.sale{
+    height: 150px;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.sale h1{
+    font-size: 35px;
+    font-weight: 800;
+    letter-spacing: 3px;
+   
+}
+.sale h3 {
+    margin-top: 10px;
+    text-align: center;  
+    letter-spacing: 2px;
+}
+
+.stopWatch{
+    font-size: 35px;
+    font-weight: 800;
+    letter-spacing: 5px;
+}
+
+main{
+    padding: 0 60px;
+}
+
+.catigory{
+    color: gray;
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+
+/* shirts gallary section */
+.shirts-section{
+    display: flex;
+    justify-content: space-between;
+}
+
+.imgs{
+    display: flex;
+  
+    flex-wrap: wrap;
+    gap: 3px;
+}
+
+.rate{
+    display: flex;
+   
+    justify-content: space-between;
+}
+
+.select-opt{
+    background-color: #F6F6F6;
+    padding: 15px;
+    display: flex;
+    justify-content: space-evenly;
+    border-radius: 8px;
+    font-weight: bold;
+}
+.selected{
+    display: flex;
+    justify-content: space-between;   
+}
+
+.select-colors input[type='radio']{
+    appearance: none;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+#blue{
+background-color: blue;
+}
+#gray{
+background-color: gray;
+}
+#black{
+    background-color: black;
+}
+
+.select-size{
+    display: flex;
+    justify-content: space-between;
+}
+.radio-btn{
+   
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: #F6F6F6;
+}
+
+.select-size input[type='radio']{
+    appearance: none;
+   
+}
+
+.offers{
+    background-color: #F6F6F6;
+    border-radius: 10px;
+    padding: 25px;
+    text-align: center;
+}
+
+.offers h5{
+    border: 1px solid blue;
+    display: inline;
+    padding: 5px 25px;
+    border-radius: 5px;
+   
+}
+
+.offers p{
+    margin-top: 10px;
+}
+
+.addCart{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 100%;
+    background-color: black;
+    border: none;
+    color: #fff;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.dropDowns{
+    display: flex;
+    justify-content: space-between;
+   align-items: center;
+    width: 100%;
+    padding: 20px;
+    background-color: rgb(241, 241, 241);
+    margin-top: 25px;
+}
+
+.details div{
+    margin-top: 15px;
+}
+
+.details{
+    width: 98%;
+}
+
+.exchange{
+    display: flex;
+    justify-content: space-between;
+}
+.exchange ul{
+    margin-left: 50px;
+}
+.customer-rev{
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 2px;
+    padding: 10px;
+    line-height: 45px;
+    
+}
+
+ .reviewBtn{
+    background-color: navy;
+    color: white;
+    padding: 10px 12px;
+    border-radius: 5px;
+    border: none;
+
+}
+
+.rev-section{
+    position: relative;
+}
+
+
+#options{
+    position: absolute;
+    bottom: 100px;
+    right: 30px;
+   padding: 4px;
+   letter-spacing: 2px;
+    border-radius: 5px;
+   border-color: rgb(240, 240, 240);
+}
+
+.reviews{
+    border: 1px solid gray;
+    padding: 15px;
+    border-radius: 5px;
+    line-height: 30px;
+    margin-bottom: 10px;
+}
+
+.reviews p{
+    display: flex;
+    justify-content: space-between;
+}
+
+.showMore{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 80px;
+}
+
+.washCare{
+    height: 200px;
+    background-color: #F6F6F6;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-bottom-left-radius: 10px;
+border-bottom-right-radius: 10px;
+}
+.wash-heading{   
+text-align: center;
+background-color: #F6F6F6;
+padding: 10px;
+border-top-left-radius: 10px;
+border-top-right-radius: 10px;
+}
+
+.wash-heading h2{
+    display: inline;
+    border-bottom: 2px solid navy;
+}
+
+footer{
+    margin-top: 80px;
+    padding: 0 60px;
+    background-color: black;
+    height: 80vh;
+color: #fff;
+}
+
+.footer-sec div{
+    padding-top: 20px;
+    margin-top: 25px;
+}
+
+.footer-sec{
+    display: flex;
+
+    justify-content: space-between;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 25%;
+}
+div .same{
+    margin-top: 100px;
+}
+
+.same{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.account{
+    justify-content:flex-start;
+    gap: 15px;    
+}
+
+.social{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.social i{
+   padding: 10px;
+    font-size: 50px;
+}
+
+header{
+    background-color: #fff;
+    width: 100%;
+  
+}

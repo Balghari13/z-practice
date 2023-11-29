@@ -45,3 +45,45 @@ button{
     border-radius: 5px;
     color: white;
 }
+
+.colors{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+input[type="radio"]{
+    appearance: none;   
+}
+
+
+.white,.black,.blue{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   color: white;
+   font-size: 14px;
+  
+}
+.white{
+    background-color: red
+}
+.black{
+    background-color: black;
+}
+.blue{
+    background-color: blue;
+}
+
+.back{
+    height: 52px;
+    width: 52px;
+    border-radius: 50%;
+    background-color: rgb(13, 202, 202)
+}
+
+

@@ -28,10 +28,9 @@ submit.addEventListener('click', (e)=>{
      e.preventDefault()
     let selectPhone = select.value
     let selectColor = document.querySelector('input[name="color"]:checked').value;
-    if(selectColor.value===null){
-        alert('please select color')
+    if(selectColor===true){
+        console.log('click')
     }
-    
     let selectAcces=[]
     document.querySelectorAll('input[type="checkbox"]').forEach(items=>{
         if(items.checked===true){
